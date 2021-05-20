@@ -74,6 +74,13 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+    <Content Include="WebFormClient.aspx" />
+    <Content Include="WebFormClient.Debug.aspx">
+      <DependentUpon>WebFormClient.aspx</DependentUpon>
+    </Content>
+    <Content Include="WebFormClient.Release.aspx">
+      <DependentUpon>WebFormClient.aspx</DependentUpon>
+    </Content>
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
